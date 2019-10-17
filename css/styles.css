@@ -1,0 +1,25 @@
+ul{
+    background-color: #292727;
+    float: left;
+    ;
+}
+
+ul a:hover{
+    background-color: maroon;
+}
+
+
+ul a {
+    display: inline;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.topnav{
+    margin: 0;
+    padding: 0;
+    background-color: #292727;
+    overflow: hidden
+}
