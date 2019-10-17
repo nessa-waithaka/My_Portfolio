@@ -29,9 +29,11 @@ ul a {
     padding: 14px 16px;
 }
 
-
 .intro{
+	margin:0;
+	background-size: 400% 400%;
 	background: linear-gradient(to right, red,yellow);
+	animation:
 }
 
 .intro img {
