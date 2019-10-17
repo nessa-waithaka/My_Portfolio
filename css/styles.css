@@ -95,6 +95,23 @@ ul a {
 	background-image: url("spots.jpg");
 	padding: 10px;
 }
-	
+.contacts form input[name="email"]{
+  margin: .8em;
+  padding: 10px 100px;
+  outline: none;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+.contacts input[type="submit"]{
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 10px 25px;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+
+}
 	
 
