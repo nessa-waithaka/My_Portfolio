@@ -2,57 +2,61 @@
 	margin:0;
 	padding:0;
 }
+.index {
+	background-image: url("bground.jpg");
+}
 
 .topnav{
-	margin: 0;
+	margin: 10px;
 	padding: 20px;
-	background-color: #292727;
+	/*background-image:url("leaves.jpg");*/
+	background: linear-gradient(to right, white,orange); 
 	overflow: hidden
 }
 
 ul{
-    background-color: #292727;
     float: left;
 }
 
 ul a:hover{
-    background-color: maroon;
+   background-color: darkorange;
 }
 
 ul a {
-	font-family: sans-serif;
+	font-family: 'Bree Serif', serif;
 	font-size: 16px;
 	display: inline;
-    color: white;
+    color: ;
     text-align: center;
     text-decoration: none;
     padding: 14px 16px;
 }
 
-.intro{
-	margin:0;
-	background-size: 400% 400%;
-	background: linear-gradient(to right, red,yellow);
-	animation:
-}
-
 .intro img {
 	display:block;
-	border-radius: 80%;
+	border-radius: 50%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 20px;
 }
 
 .intro h1{
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
-	color: white;
+	color: darkorange;
 }
 .intro h2{
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
-	color: yellowgreen;
+	color: darkorange;
 }
+.intro p{
+	font-family: 'Neucha', cursive;
+	font-size: 60px;
+	text-align: center;
+	color: orange;
+}
+
 
 
 
