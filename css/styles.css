@@ -62,22 +62,39 @@ ul a {
 	overflow: hidden
 }
 
-.about h1{
+.content h1{
 		text-align: left;
 		font-family: 'Roboto Slab', serif;
 		font-size: 60px;
 		color: darkorange;
-	}
+}
+
+.content p{
+  font-family: 'Bree Serif', serif;
+	font-size: 20px;
+	clear:right;
+	color: black;
+}
+.content a{
+  color: darkslategrey;
+}
 
 .content {
 	background:linear-gradient(to right,lightyellow,orange); 
-	padding: 10px;
+  padding: 10px;
+  height: 200px;
   }
+  
+.content img{
+  border-radius: 50%;
+  float: left;
+  overflow: auto;
+}
   
 .contacts {
 	background-image: url("spots.jpg");
 	padding: 10px;
-  }
+}
 	
 	
 
