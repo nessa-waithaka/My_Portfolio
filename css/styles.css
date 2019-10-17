@@ -5,8 +5,7 @@
 .index {
 	background-image: url("bground.jpg");
 }
-
-.topnav{
+.topnav-a{
 	margin: 10px;
 	padding: 20px;
 	/*background-image:url("leaves.jpg");*/
@@ -26,7 +25,6 @@ ul a {
 	font-family: 'Bree Serif', serif;
 	font-size: 16px;
 	display: inline;
-    color: ;
     text-align: center;
     text-decoration: none;
     padding: 14px 16px;
@@ -57,13 +55,29 @@ ul a {
 	color: orange;
 }
 
-
-
-
-.aboutme{
-	background-color: lightgrey;
+.topnav-b{
+	margin: 2px;
+	padding: 20px;
+	background: linear-gradient(to right, white,orange); 
+	overflow: hidden
 }
 
+.about h1{
+		text-align: left;
+		font-family: 'Roboto Slab', serif;
+		font-size: 60px;
+		color: darkorange;
+	}
+
+.content {
+	background:linear-gradient(to right,lightyellow,orange); 
+	padding: 10px;
+  }
+  
+.contacts {
+	background-image: url("spots.jpg");
+	padding: 10px;
+  }
 	
 	
 
