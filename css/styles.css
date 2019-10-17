@@ -1,13 +1,12 @@
+
 ul{
     background-color: #292727;
     float: left;
-    ;
 }
 
 ul a:hover{
     background-color: maroon;
 }
-
 
 ul a {
     display: inline;
