@@ -1,84 +1,95 @@
-*{
-	margin:0;
-	padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
 .index {
   /*background-image: url("bground.jpg");*/
-  background: linear-gradient(to bottom, white,orange); 
+  background: linear-gradient(to bottom, white, orange);
 }
-.about{
- background: linear-gradient(to bottom, white,orange); 
+.about {
+  background: linear-gradient(to bottom, white, orange);
 }
-.topnav-a{
-	margin: 10px;
-	padding: 20px;
-	/*background-image:url("leaves.jpg");*/
-	background: linear-gradient(to right, white,orange); 
-	overflow: hidden
+/*.project{
+  background: linear-gradient(to bottom, white,orange);
+}*/
+
+.topnav-a {
+  margin: 10px;
+  padding: 20px;
+  /*background-image:url("leaves.jpg");*/
+  background: linear-gradient(to right, white, orange);
+  overflow: hidden;
 }
 
-ul{
-    float: left;
+ul {
+  float: left;
 }
 
-ul a:hover{
-   background-color: darkorange;
+ul a:hover {
+  background-color: darkorange;
 }
 
 ul a {
-	font-family: 'Bree Serif', serif;
-	font-size: 16px;
-	display: inline;
-    text-align: center;
-    text-decoration: none;
-    padding: 14px 16px;
+  font-family: "Bree Serif", serif;
+  font-size: 16px;
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
 }
 
 .intro img {
-	display:block;
-	border-radius: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 20px;
+  display: block;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
 
-.intro h1{
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-	color: orangered;
+.intro h1 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: orangered;
 }
-.intro h2{
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+.intro h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
   color: rgb(196, 53, 2);
 }
 
-.intro p{
-	font-family: 'Neucha', cursive;
-	font-size: 60px;
-	text-align: center;
-	color:  rgb(156, 2, 2);
+.intro p {
+  font-family: "Neucha", cursive;
+  font-size: 60px;
+  text-align: center;
+  color: rgb(156, 2, 2);
 }
 
-.topnav-b{
-	margin: 2px;
-	padding: 20px;
-	background: linear-gradient(to right, white,orange); 
-	overflow: hidden
+.topnav-b {
+  margin: 2px;
+  padding: 20px;
+  background: linear-gradient(to right, white, orange);
+  overflow: hidden;
 }
 
-.sidenav img{
+.topnav-c {
+  margin: 2px;
+  padding: 20px;
+  background: linear-gradient(to right, white, orange);
+  overflow: hidden;
+}
+
+.sidenav img {
   border-radius: 50%;
   margin-left: 10px;
 }
 
-.content{
+.content {
   outline: none;
   margin-left: 300px;
   padding-left: 20px;
 }
 
-.sidenav{
+.sidenav {
   margin-top: 15px;
   margin-left: 10px;
   height: 100%;
@@ -86,40 +97,40 @@ ul a {
   position: fixed;
 }
 
-.content h1{
-		text-align: left;
-		font-family: 'Roboto Slab', serif;
-		font-size: 60px;
-		color: darkorange;
+.content h1 {
+  text-align: left;
+  font-family: "Roboto Slab", serif;
+  font-size: 60px;
+  color: darkorange;
 }
 
-.content h2{
-  font-family: 'Roboto Slab', serif;
+.content h2 {
+  font-family: "Roboto Slab", serif;
   font-size: 30px;
   color: darkorange;
 }
 
-.content p{
-  font-family: 'Bree Serif', serif;
-	font-size: 20px;
-	clear:right;
-	color: black;
+.content p {
+  font-family: "Bree Serif", serif;
+  font-size: 20px;
+  clear: right;
+  color: black;
 }
 
-.content a{
+.content a {
   color: darkslategrey;
 }
 
-.contacts{
+.contacts {
   margin-top: 100px;
   margin-bottom: none;
   background: white;
   padding: 10px;
   text-align: left;
 }
- 
-.contacts form input[name="email"]{
-  margin: .8em;
+
+.contacts form input[name="email"] {
+  margin: 0.8em;
   padding: 10px 120px;
   outline: none;
   border: none;
@@ -129,7 +140,7 @@ ul a {
   overflow: hidden;
 }
 
-.contacts input[type="submit"]{
+.contacts input[type="submit"] {
   border: 2px solid white;
   border-radius: 20px;
   padding: 10px 25px;
@@ -137,17 +148,45 @@ ul a {
   cursor: pointer;
 }
 
-ul{
+ul {
   list-style-type: none;
 }
 
-li{
+li {
   display: inline;
   padding: 2em;
   background-color: inherit;
 }
-.social-media-links li a:hover{
+.social-media-links li a:hover {
   background-color: darkorange;
 }
+.skills {
+}
+.skill-bar {
+  background-color: #eee;
+  padding: 5px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
 
-
+.skill-bar::before {
+  content: attr(data-skill);
+  background-color: darkorange;
+  display: inline-block;
+  padding: 8px 0 8px 15px;
+  border-radius: inherit;
+  animation: load 2s 0s;
+}
+.skill-bar.basic::before {
+  width: calc(30% - 10px);
+}
+.skill-bar.intermediate::before {
+  width: calc(40% - 10px);
+}
+.skill-bar.experienced::before {
+  width: calc(50% - 10px);
+}
