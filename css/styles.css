@@ -5,6 +5,9 @@
 .index {
 	background-image: url("bground.jpg");
 }
+.about{
+  background-image: url("spots.jpg");
+}
 .topnav-a{
 	margin: 10px;
 	padding: 20px;
@@ -62,11 +65,35 @@ ul a {
 	overflow: hidden
 }
 
+.sidenav img{
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.content{
+  outline: none;
+  margin-left: 300px;
+  padding-left: 20px;
+ /* background: linear-gradient(to bottom, white,orange); */
+}
+
+.sidenav{
+  margin-top: 15px;
+  margin-left: 10px;
+  height: 100%;
+  width: 300px;
+  position: fixed;
+}
 .content h1{
 		text-align: left;
 		font-family: 'Roboto Slab', serif;
 		font-size: 60px;
 		color: darkorange;
+}
+.content h2{
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  color: darkorange;
 }
 
 .content p{
@@ -79,32 +106,19 @@ ul a {
   color: darkslategrey;
 }
 
-.content {
-	background:linear-gradient(to right,lightyellow,orange); 
-  padding: 10px;
-  height: 200px;
-  }
   
-.content img{
-  border-radius: 50%;
-  float: left;
-  overflow: auto;
-}
-  
-.contacts {
-	background-image: url("spots.jpg");
-	padding: 10px;
-}
 .contacts form input[name="email"]{
   margin: .8em;
-  padding: 10px 100px;
+  padding: 10px 120px;
   outline: none;
   border: none;
   background-color: white;
   border-radius: 20px;
   text-align: center;
+  overflow: hidden;
 }
-.contacts input[type="submit"]{
+
+.content .contacts input[type="submit"]{
   border: 2px solid white;
   border-radius: 20px;
   padding: 10px 25px;
