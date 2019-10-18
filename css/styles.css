@@ -3,10 +3,11 @@
 	padding:0;
 }
 .index {
-	background-image: url("bground.jpg");
+  /*background-image: url("bground.jpg");*/
+  background: linear-gradient(to bottom, white,orange); 
 }
 .about{
-  background-image: url("spots.jpg");
+ background: linear-gradient(to bottom, white,orange); 
 }
 .topnav-a{
 	margin: 10px;
@@ -44,18 +45,19 @@ ul a {
 .intro h1{
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
-	color: darkorange;
+	color: orangered;
 }
 .intro h2{
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
-	color: darkorange;
+  color: rgb(196, 53, 2);
 }
+
 .intro p{
 	font-family: 'Neucha', cursive;
 	font-size: 60px;
 	text-align: center;
-	color: orange;
+	color:  rgb(156, 2, 2);
 }
 
 .topnav-b{
@@ -74,7 +76,6 @@ ul a {
   outline: none;
   margin-left: 300px;
   padding-left: 20px;
- /* background: linear-gradient(to bottom, white,orange); */
 }
 
 .sidenav{
@@ -106,26 +107,40 @@ ul a {
   color: darkslategrey;
 }
 
-  
+.contacts{
+  margin-top: 100px;
+  background: white;
+  padding: 10px;
+  text-align: left;
+}
+ 
 .contacts form input[name="email"]{
   margin: .8em;
   padding: 10px 120px;
   outline: none;
   border: none;
-  background-color: white;
+  background-color: goldenrod;
   border-radius: 20px;
-  text-align: center;
+  text-align: left;
   overflow: hidden;
 }
 
-.content .contacts input[type="submit"]{
+.contacts input[type="submit"]{
   border: 2px solid white;
   border-radius: 20px;
   padding: 10px 25px;
-  background-color: white;
-  text-align: center;
+  text-align: left;
   cursor: pointer;
-
 }
-	
+.contacts ul{
+  list-style-type: none;
+}
+
+.contacts ul li{
+  display: inline;
+  padding: 2em;
+}
+.social-media-links{
+  background-image: url("spots.jpg");
+}
 
