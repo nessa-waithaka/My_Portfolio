@@ -160,7 +160,8 @@ li {
 .social-media-links li a:hover {
   background-color: darkorange;
 }
-.skills {
+
+.skills h1 {
 }
 .skill-bar {
   background-color: #eee;
@@ -189,4 +190,34 @@ li {
 }
 .skill-bar.experienced::before {
   width: calc(50% - 10px);
+}
+.project1column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  margin-right: 5px;
+}
+.project2column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  margin-right: 5px;
+}
+.project3column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.projectrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
