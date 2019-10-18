@@ -14,3 +14,8 @@ To start using this project use the following commands:
 - `code .` [//]: # (this is if Visual Studio Code is your preferred text editor)
 ## Known Bugs 
 Social Media links on About Me page haven't been deployed yet.
+## Support and contact details
+Incase of any issues, questions, ideas or concerns.  Make acontribution to the code by contacting me through [vanessa.waithaka@gmail.com](vanessa.waithaka@gmail.com) .
+### License
+*MIT LICENSE*   
+Copyright (c) 2019 **Vanessa Waithaka**
