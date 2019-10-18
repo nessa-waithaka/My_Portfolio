@@ -85,12 +85,14 @@ ul a {
   width: 300px;
   position: fixed;
 }
+
 .content h1{
 		text-align: left;
 		font-family: 'Roboto Slab', serif;
 		font-size: 60px;
 		color: darkorange;
 }
+
 .content h2{
   font-family: 'Roboto Slab', serif;
   font-size: 30px;
@@ -103,12 +105,14 @@ ul a {
 	clear:right;
 	color: black;
 }
+
 .content a{
   color: darkslategrey;
 }
 
 .contacts{
   margin-top: 100px;
+  margin-bottom: none;
   background: white;
   padding: 10px;
   text-align: left;
@@ -120,7 +124,7 @@ ul a {
   outline: none;
   border: none;
   background-color: goldenrod;
-  border-radius: 20px;
+  border-radius: 10px;
   text-align: left;
   overflow: hidden;
 }
@@ -132,15 +136,18 @@ ul a {
   text-align: left;
   cursor: pointer;
 }
-.contacts ul{
+
+ul{
   list-style-type: none;
 }
 
-.contacts ul li{
+li{
   display: inline;
   padding: 2em;
+  background-color: inherit;
 }
-.social-media-links{
-  background-image: url("spots.jpg");
+.social-media-links li a:hover{
+  background-color: darkorange;
 }
+
 
