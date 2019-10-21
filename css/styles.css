@@ -195,19 +195,20 @@ li {
   float: left;
   width: 30%;
   padding: 10px;
-  margin-right: 5px;
+  margin-left: 25px;
+  margin-right: 10px;
 }
 .project2column {
   float: left;
   width: 30%;
   padding: 10px;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 .project3column {
   float: left;
   width: 30%;
   padding: 10px;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .projectrow:after {
